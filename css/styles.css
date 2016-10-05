@@ -1,0 +1,96 @@
+body {
+    margin:0px;
+    
+    padding-left:30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navi {
+    width:10%;
+    float:left;
+    font-size: 25;
+    background-color:aliceblue;
+    clear:right;
+}
+
+.logo{
+    padding:10px;
+    width:200;
+    float:left;
+    background-color:aliceblue;
+    
+}
+
+.white {
+  background-color: #f4f5f5;
+  padding:20px;
+width:200px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    float:left;
+}
+
+.primary {
+
+    font-size: 25px;
+    margin:0px;
+    
+}
+
+
+.style{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    clear:left;
+}
+
+.black{
+float:left;
+width:200px;
+padding:20px;
+ text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color:white;
+    background-color: black;
+
+}
+
+.blue{
+    float:left;
+    width:200px;
+    padding:20px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color:white;
+    background-color: rgb(74,144,226);
+    
+}
+
+.font{
+    margin:0px;
+    font-size: 30px;
+    
+}
+
+.link{
+    margin-top: 8px;
+    color:rgb(74,144,226);
+    font-size: 20;
+    margin-bottom: 10px;
+}
+
+.textsize{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+hr{
+    color:aliceblue;
+    margin-right: 100px;
+}
