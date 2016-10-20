@@ -80,16 +80,28 @@ hr {
     height: 90px;
 }
 
-.navi {
-    width: 120px;
+.nav{
+    display: flex;
+    float:right;
+    margin-right: 1%;
+    padding: 0px;
+    background-color: #fcfcfc;
+}
+
+.navi { 
+    width:;
     float: right;
     padding: 25px;
-    font-size: 20px;
-    display: inline;
+    font-size: 19px;
     text-align: center;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     color: black;
+    display: inline-block;
+    flex-basis: 15px;
+    flex:1;
+    z-index: 20;
+
 }
 
 .navi:hover {
@@ -99,7 +111,7 @@ hr {
 .logo {
     padding-left: 50px;
     padding-right: 10px;
-    padding-top: 12px;
+    padding-top: 10px;
     float: left;
     font-family: 'Lato', sans-serif;
 }
@@ -110,6 +122,8 @@ hr {
     margin-right: 5%;
     align-self: center;
     float: left;
+    z-index: -10;
+    height:1000
 }
 
 .intro-text {
@@ -142,8 +156,12 @@ hr {
     font-family: 'Lato', sans-serif;
 }
 
-.intro-container:hover {
+.xp5:hover {
     filter: opacity(70%);
+}
+
+a.xp5:hover + p.intro-text {
+    display: block;
 }
 
 a {
@@ -152,6 +170,7 @@ a {
 }
 
 .intro-container {
+    height:auto;
     position: relative;
     margin-bottom: 1%;
 }
@@ -164,10 +183,6 @@ a {
 .intro-container-bottom {
     position: relative;
     display: flex;
-}
-
-.intro-container:hover > p.intro-text {
-    display: block;
 }
 
 .benq {
@@ -224,6 +239,7 @@ a {
     margin-top: 0px;
     margin-bottom: 0px;
     float: left;
+    overflow:hidden;
 }
 
 .title {
@@ -292,7 +308,30 @@ spec-img {
     position: absolute;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .nav {
-        display: none;
+        flex-direction: column;
+        width:100%;
+        float:left;
+        clear: both;
+        padding: 0px;
+    }
+    .intro-container-top,
+    .intro-container-bottom{
+        flex-direction: column;
+    }
+    .oneplus,
+    .benq,
+    .oppo,
+    .smartisan{
+        width:100%;
+        margin: 0px;
+    }
+    .intro-container{
+        margin-bottom: 0px;
+        position:relative;
+    }
+    .header{
+        height:auto;
+        overflow:visible;      
     }
