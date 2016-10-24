@@ -599,6 +599,7 @@
       .smartisan:hover + .intro-text-sm {
           display: none;
       }
+      
       .contact {
           width: 60%;
           margin-bottom: 0px;
