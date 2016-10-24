@@ -261,6 +261,7 @@
                                 
                                 .point {
                                     margin: 2px;
+                                    
                                 }
                                 
                                 .review-header {
@@ -305,6 +306,10 @@
                                     font-size: 20px;
                                     margin-right: 0px;
                                 }
+.review-pic{
+    margin-left: 2%;
+    width:60%;
+}
                                 
                                 .spec-container {
                                     position: relative;
